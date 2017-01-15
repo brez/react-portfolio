@@ -1,0 +1,9 @@
+.App {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.Bio-header {
+  width: 32%;
+  padding: 1em;
+}
