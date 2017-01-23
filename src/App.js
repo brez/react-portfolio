@@ -8,9 +8,10 @@ class Bio extends Component {
     return (
       <section className="Bio-header">
         <header>
-          <p>{name}</p>
+          <h2>{name}</h2>
           <p>{description}</p>
         </header>
+        <p>Feel free to <a href="mailto:hi@bresnik.org">reach out</a> or view repositories on <a href="https://github.com/brez/">Github</a></p>
         <p className="Github">This is ReactJS, <a href="https://github.com/brez/react-portfolio">Check it out.</a></p>
       </section>
     );

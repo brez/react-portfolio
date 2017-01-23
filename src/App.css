@@ -7,3 +7,19 @@
   width: 32%;
   padding: 1em;
 }
+
+.Project {
+  flex: 1 1 auto;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Bio-header {
+    width: 64%;
+  }
+}

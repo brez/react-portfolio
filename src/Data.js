@@ -1,7 +1,7 @@
 export default {
   name: "John Bresnik",
   icon: "brez.png",
-  description: "TBD",
+  description: "Various projects going about a decade, see individual slide for detail on technology, etc.",
   portfolio: [
     {
       title: "Sizzl",
