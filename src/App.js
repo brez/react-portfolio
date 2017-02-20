@@ -11,8 +11,7 @@ class Bio extends Component {
           <h2>{name}</h2>
           <p>{description}</p>
         </header>
-        <p>Feel free to <a href="mailto:hi@bresnik.org">reach out</a> or view repositories on <a href="https://github.com/brez/">Github</a></p>
-        <p className="Github">This is ReactJS, <a href="https://github.com/brez/react-portfolio">Check it out.</a></p>
+        <p>Feel free to <a href="mailto:hi@bresnik.org">Reach Out</a> or view repositories on <a href="https://github.com/brez/">Github</a></p>
       </section>
     );
   }
@@ -21,14 +20,15 @@ class Bio extends Component {
 class Project extends Component {
   render() {
     const { title, description, image, color, backgroundColor } = this.props;
+    let src = require(`../public/images/${image}`);
     return(
       <div className="Project">
         <div className="Project-img">
-          {image}
+          <img src={src} />
         </div>
-        <div className="Project-title">
+        <h3 className="Project-title">
           {title}
-        </div>
+        </h3>
         <div className="Project-desc">
           {description}
         </div>

@@ -1,19 +1,19 @@
 export default {
   name: "John Bresnik",
   icon: "brez.png",
-  description: "Various projects going about a decade, see individual slide for detail on technology, etc.",
+  description: "Various projects going back about a decade, see individual slide for detail on technology, etc.",
   portfolio: [
     {
       title: "Sizzl",
       description: "This is my app for publishing and reading small comics, Comique, rebuilt and redesigned from the ground up as a React app using Relay and a Rails based GraphQL server. This way it's accessible to anyone with a web browser, offers much improved functionality over the original, and looks great on big and small screens.",
-      image: "new-whatever-0.jpg",
+      image: "new-whatever-0.png",
       color: '#aab6da',
       bgColor: '#f1f3f9'
     },
     {
       title: "Spiegel",
       description: "This is my app for publishing and reading small comics, Comique, rebuilt and redesigned from the ground up as a React app using Relay and a Rails based GraphQL server. This way it's accessible to anyone with a web browser, offers much improved functionality over the original, and looks great on big and small screens.",
-      image: "new-whatever-0.jpg",
+      image: "new-whatever-0.png",
       color: '#aab6da',
       bgColor: '#f1f3f9'
     }
